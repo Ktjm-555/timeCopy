@@ -1,3 +1,60 @@
 body {
-  width: 150px;
+  width: 400px;
+}
+
+
+p {
+  /* width: 200px; */
+}
+
+h1, h2 {
+  margin: 0;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: normal;
+
+}
+.wrap {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+button {
+  padding: 6px;
+}
+
+.btn--red {
+  color: #fff;
+  background-color: #FF4554;
+}
+.btn--red:hover {
+
+  cursor: pointer;
+}
+
+.btn--radius {
+   border-radius: 100vh;
+}
+
+.btn--blue {
+  color: #fff;
+  background-color: #56CCF2;
+}
+
+.btn--blue:hover {
+  cursor: pointer;
+}
+
+.btn--yellow {
+  color: #000;
+  background-color: #FFEF6C;
+}
+
+.btn--blue:hover {
+  cursor: pointer;
+}
+
+.btn--radius2 {
+  border-radius: 40px;
 }

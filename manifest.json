@@ -7,7 +7,6 @@
     "default_popup": "popup.html",
 
     "default_icon": {
-      "32": "/images/inu.png"
     }
   }
 }
