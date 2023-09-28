@@ -27,8 +27,10 @@ const start = document.querySelector('.start');
 const end = document.querySelector('.end');
 
 
-start.textContent = getDateTime() + ' 勤務開始';
-end.textContent = getDateTime() + ' 勤務終了';
+// start.textContent = getDateTime() + ' 勤務開始';
+start.textContent = getDateTime();
+// end.textContent = getDateTime() + ' 勤務終了';
+end.textContent = getDateTime();
 
 const yellowBtn = document.querySelector('.btn--yellow');
 const redBtn = document.querySelector('.btn--red');
