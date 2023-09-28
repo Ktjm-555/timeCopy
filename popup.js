@@ -23,17 +23,16 @@ const getDateTime = () => {
   return todayDateTime   
 
 }
-const start = document.querySelector('.start');
+// const start = document.querySelector('.start');
 const end = document.querySelector('.end');
 
 
 // start.textContent = getDateTime() + ' 勤務開始';
-start.textContent = getDateTime();
 // end.textContent = getDateTime() + ' 勤務終了';
 end.textContent = getDateTime();
 
-const yellowBtn = document.querySelector('.btn--yellow');
-const redBtn = document.querySelector('.btn--red');
+// const yellowBtn = document.querySelector('.btn--yellow');
+// const redBtn = document.querySelector('.btn--red');
 const blueBtn = document.querySelector('.btn--blue');
 let value1 = ""
 let value2 = ""
@@ -67,12 +66,12 @@ let value2 = ""
 //   setTimeout(() => (yellowBtn.innerHTML = 'Copy'), 1000);
 // });
 
-redBtn.addEventListener('click', () => { 
-  navigator.clipboard.writeText(start.textContent); 
+// redBtn.addEventListener('click', () => { 
+//   navigator.clipboard.writeText(start.textContent); 
 
-  redBtn.innerHTML = 'OK!'; 
-  setTimeout(() => (redBtn.innerHTML = 'Copy'), 1000);
-});
+//   redBtn.innerHTML = 'OK!'; 
+//   setTimeout(() => (redBtn.innerHTML = 'Copy'), 1000);
+// });
 
 blueBtn.addEventListener('click', () => { 
   navigator.clipboard.writeText(end.textContent); 
