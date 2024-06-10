@@ -54,7 +54,7 @@ yellowBtn.addEventListener("click", () => {
 	// const newValue1 = newArray1.join("");
 	// const newValue2 = newArray2.join("");
 
-	const reporttt = `＜天気（こころと体の余裕）＞\n${value1}\n\n＜その他（気づき等）＞\n${value2}`;
+	const reporttt = `工数実績を入力しました。\n\n＜天気（こころと体の余裕）＞\n${value1}\n\n＜その他（気づき等）＞\n${value2}`;
 
 	navigator.clipboard.writeText(reporttt);
 
