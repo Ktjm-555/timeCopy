@@ -33,8 +33,7 @@ const blueBtn = document.querySelector(".btn--blue");
 let value1 = "";
 let value2 = "";
 
-const report =
-	"＜今日やろうとしていたこと＞\n●AP計画タスク\n\n●計画外作業\n\n＜今日実際にやったこと(やれたこと)＞\n●AP計画タスク\n\n●計画外作業\n\n＜天気（こころとからだの余裕）＞\nはれ\n\n＜その他(気づき等)＞\nなし";
+const report = "＜天気（こころと体の余裕）＞\n\n\n＜その他（気づき等）＞\n";
 
 yellowBtn.addEventListener("click", () => {
 	// value1 = document.querySelector('.form-control1').value;
