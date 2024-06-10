@@ -34,7 +34,7 @@ let value1 = "";
 let value2 = "";
 
 const report =
-	"工数実績を入力しました。\n\n＜天気（こころと体の余裕）＞\n\n\n＜その他（気づき等）＞\n";
+	"工数実績を入力しました。\n\n＜天気（こころと体の余裕）＞\nはれ\n\n＜その他（気づき等）＞\n";
 
 yellowBtn.addEventListener("click", () => {
 	// value1 = document.querySelector('.form-control1').value;
