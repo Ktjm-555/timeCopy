@@ -1,12 +1,11 @@
 {
-  "name": "勤怠時間コピー",
-  "description": "実績入力&勤怠時間コピーができますよん。",
-  "version": "2.0",
-  "manifest_version": 3,
-  "action": {
-    "default_popup": "popup.html",
+	"name": "勤怠時間コピー",
+	"description": "実績入力&勤怠時間コピーができますよん。",
+	"version": "3.0",
+	"manifest_version": 3,
+	"action": {
+		"default_popup": "popup.html",
 
-    "default_icon": {
-    }
-  }
+		"default_icon": {}
+	}
 }
