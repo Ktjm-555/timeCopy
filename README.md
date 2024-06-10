@@ -15,3 +15,14 @@
 <br>
 例：<br>
 <img width="333" alt="スクリーンショット 2024-03-23 9 59 03" src="https://github.com/Ktjm-555/timeCopy/assets/102650893/46e3085d-778e-405e-9979-81f6ea9c8050">
+
+# master
+### 「X/XX XX:XX 勤務」のみコピーできる　自身で開始、終了をつける式<>
+<img width="244" alt="スクリーンショット 2024-03-23 9 50 46" src="https://github.com/Ktjm-555/timeCopy/assets/102650893/07cc3c43-36bd-4a46-9276-02d21e609739"><br>
+
+例：　3/23 9:50 勤務
+
+<br>
+<br>
+<br>
+
